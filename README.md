@@ -1,1 +1,43 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19690585&assignment_repo_type=AssignmentRepo)
+# Week 2 Express.js Assignment
+
+This is a simple Express.js server for managing product data using an in-memory "database". It demonstrates routing, middleware, and error handling. This project was built as part of the MERN Stack course (Week 2 assignment).
+
+---
+
+## 📁 Project Structure
+
+WEEK-2-EXPRESS-JS-ASSIGNMENT-NATANDI/
+├── middleware/
+│   ├── authentication.js     
+│   ├── error_handling.js       
+│   └── logger.js               
+│
+├── routes/
+│   └── products.js             
+│
+├── server.js                   
+├── package.json                
+├── package-lock.json           
+├── README.md                   
+└── week2-Assignment.md         
+
+---
+
+## 🧠 Features
+
+- RESTful API for product management
+- Custom middleware for logging and authentication
+- Centralized error handling using custom error classes
+- In-memory product database
+- Modular route structure
+
+---
+
+## 🚀 How to Run This Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/week-2-express-js-assignment.git
+cd week-2-express-js-assignment
+node server.js
