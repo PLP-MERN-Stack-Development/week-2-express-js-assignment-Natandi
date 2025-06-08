@@ -26,7 +26,7 @@ app.use('/api/products', authenticate, productRoutes);
 
 // Root route
 app.get('/', (req, res) => {
-  res.send('Welcome to the Product API! Go to /api/products to see all products.');
+  res.send('Hello World!.');
 });
 
 // Error handling middleware (should come after all routes)
